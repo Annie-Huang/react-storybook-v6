@@ -26,3 +26,4 @@ This project shows:
 - Story within story. (e.g. subscription story = Primary button story + Large input story)
 - Use args (a set of arguments (props, slots, inputs, etc)) for storybook template.
 - Use decorator to wrap every story in a file inside an extra component
+- Use Global decorators in preview.js over component decorator in every component.
