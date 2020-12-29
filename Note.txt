@@ -10,5 +10,5 @@ https://storybook.js.org/docs/react/get-started/install
 
 C:\react>npx create-react-app react-storybook-v6
 C:\react\react-storybook-v6>npm install
-
+C:\react\react-storybook-v6>npx sb init         <<< install storybook. Default is add using yarn, you will need to do npm install.
 
