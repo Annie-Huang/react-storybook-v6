@@ -5,6 +5,9 @@ import Button from './Button';
 export default {
   title: 'form/Button',
   component: Button,
+  args: {
+    children: 'Button',
+  },
 };
 
 export const Primary = () => <Button variant='primary'>Primary</Button>;
@@ -25,7 +28,7 @@ PrimaryA.args = {
 export const LongPrimaryA = Template.bind({});
 LongPrimaryA.args = {
   ...PrimaryA,
-  children: 'Long Primary Args',
+  // children: 'Long Primary Args',
 };
 
 export const SecondaryA = Template.bind({});
