@@ -1,7 +1,7 @@
 React Storybook Tutorial
-(https://www.youtube.com/playlist?list=PLC3y8-rFHvwhC-j3x3t9la8-GQJGViDQk)
+https://www.youtube.com/playlist?list=PLC3y8-rFHvwhC-j3x3t9la8-GQJGViDQk
 
-https://github.com/gopinav/React-Storybook-Tutorials
+https://github.com/gopinav/React-Storybook-Tutorials/tree/master/react-storybook-v6
 https://github.com/Annie-Huang/react-storybook-v6
 
 https://storybook.js.org/docs/react/get-started/install
@@ -12,3 +12,4 @@ C:\react>npx create-react-app react-storybook-v6
 C:\react\react-storybook-v6>npm install
 C:\react\react-storybook-v6>npx sb init         <<< install storybook. Default is add using yarn, you will need to do npm install.
 
+C:\react\react-storybook-v6>npm run storybook
