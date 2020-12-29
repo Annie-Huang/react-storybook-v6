@@ -8,6 +8,7 @@ https://storybook.js.org/docs/react/get-started/install
 https://storybook.js.org/docs/react/writing-stories/naming-components-and-hierarchy     << Sorting stories section
 https://storybook.js.org/docs/react/writing-stories/args
 https://storybook.js.org/docs/react/writing-stories/decorators
+https://chakra-ui.com/
 =================================================================
 
 C:\react>npx create-react-app react-storybook-v6
@@ -15,6 +16,8 @@ C:\react\react-storybook-v6>npm install
 C:\react\react-storybook-v6>npx sb init         <<< install storybook. Default is add using yarn, you will need to do npm install.
 
 C:\react\react-storybook-v6>npm run storybook
+
+C:\react\react-storybook-v6>npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
 
 
 Storybook seems to required constance restart, very annoying....
