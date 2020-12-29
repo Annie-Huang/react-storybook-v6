@@ -5,7 +5,7 @@ https://github.com/gopinav/React-Storybook-Tutorials/tree/master/react-storybook
 https://github.com/Annie-Huang/react-storybook-v6
 
 https://storybook.js.org/docs/react/get-started/install
-
+https://storybook.js.org/docs/react/writing-stories/naming-components-and-hierarchy     << Sorting stories section
 =================================================================
 
 C:\react>npx create-react-app react-storybook-v6
@@ -19,4 +19,5 @@ Storybook seems to required constance restart, very annoying....
 
 This project shows:
 - How to group component into folder or multiple level of folders. e.g. form/Button, form/control/Button
-- Change story name within the component on the left side menu
+- Change story name within the component on the left side menu.
+- Sorted all stories (including the folders that they are in) alphabetically (setup in preview.js)
