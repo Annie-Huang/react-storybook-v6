@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
+// You can make second level folder like:   title: 'form/control/Button',
 export default {
   title: 'form/Button',
   component: Button,

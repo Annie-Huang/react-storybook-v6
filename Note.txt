@@ -16,3 +16,7 @@ C:\react\react-storybook-v6>npm run storybook
 
 
 Storybook seems to required constance restart, very annoying....
+
+This project shows:
+- How to group component into folder or multiple level of folders. e.g. form/Button, form/control/Button
+- Change story name within the component on the left side menu
