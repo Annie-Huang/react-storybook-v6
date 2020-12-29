@@ -21,3 +21,4 @@ This project shows:
 - How to group component into folder or multiple level of folders. e.g. form/Button, form/control/Button
 - Change story name within the component on the left side menu.
 - Sorted all stories (including the folders that they are in) alphabetically (setup in preview.js)
+- Story within story. (e.g. subscription story = Primary button story + Large input story)
