@@ -13,3 +13,6 @@ C:\react\react-storybook-v6>npm install
 C:\react\react-storybook-v6>npx sb init         <<< install storybook. Default is add using yarn, you will need to do npm install.
 
 C:\react\react-storybook-v6>npm run storybook
+
+
+Storybook seems to required constance restart, very annoying....
