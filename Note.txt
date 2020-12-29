@@ -6,6 +6,7 @@ https://github.com/Annie-Huang/react-storybook-v6
 
 https://storybook.js.org/docs/react/get-started/install
 https://storybook.js.org/docs/react/writing-stories/naming-components-and-hierarchy     << Sorting stories section
+https://storybook.js.org/docs/react/writing-stories/args
 =================================================================
 
 C:\react>npx create-react-app react-storybook-v6
@@ -22,3 +23,4 @@ This project shows:
 - Change story name within the component on the left side menu.
 - Sorted all stories (including the folders that they are in) alphabetically (setup in preview.js)
 - Story within story. (e.g. subscription story = Primary button story + Large input story)
+- Use args (a set of arguments (props, slots, inputs, etc)) for storybook template.
