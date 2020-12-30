@@ -25,7 +25,7 @@ C:\react\react-storybook-v6>npx sb init         <<< install storybook. Default i
 C:\react\react-storybook-v6>npm run storybook
 
 C:\react\react-storybook-v6>npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
-
+C:\react\react-storybook-v6>npm install @storybook/addon-console --save-dev
 
 Storybook seems to required constance restart, very annoying....
 
