@@ -40,3 +40,4 @@ This project shows:
 - Controls Addon so you can change the injected property.
 - Actions Addon so you can get the click event.
 - Go to Docs to click show code button (e.g. http://localhost:6006/?path=/docs/form-button--primary)
+- See different viewport for window machine (change in main.js, mac works fine). It's on the middle top section, last one.
