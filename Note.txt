@@ -12,6 +12,8 @@ https://storybook.js.org/docs/react/writing-stories/decorators
 https://chakra-ui.com/
 https://chakra-ui.com/docs/getting-started
 https://chakra-ui.com/docs/form/button
+https://chakra-ui.netlify.app/index.html?path=/story/accordion--default         << Chakra's own component library with storybook.
+
 =================================================================
 
 C:\react>npx create-react-app react-storybook-v6
@@ -33,3 +35,4 @@ This project shows:
 - Use args (a set of arguments (props, slots, inputs, etc)) for storybook template.
 - Use decorator to wrap every story in a file inside an extra component
 - Use Global decorators in preview.js over component decorator in every component.
+- Controls Addon so you can change the injected property.
