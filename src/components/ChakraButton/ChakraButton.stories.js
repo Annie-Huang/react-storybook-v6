@@ -6,5 +6,5 @@ export default {
   component: Button,
 };
 
-export const Success = () => <Button colorScheme='blue'>Button</Button>;
+export const Success = () => <Button variantColor='green'>Button</Button>;
 export const Danger = () => <Button variantColor='red'>Danger</Button>;

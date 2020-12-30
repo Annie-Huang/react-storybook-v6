@@ -1,6 +1,13 @@
 import React from 'react';
 import Center from '../src/components/Center/Center';
-import { ChakraProvider, extendTheme, Theme, CSSReset } from '@chakra-ui/react';
+import {
+  ChakraProvider,
+  extendTheme,
+  theme,
+  CSSReset,
+  ThemeProvider,
+  Box,
+} from '@chakra-ui/react';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -40,5 +47,17 @@ export const decorators = [
 //         <Story />
 //       </Center>
 //     </ChakraProvider>
+//   ),
+// ];
+
+// Try another option in "React Storybook Tutorial - 6.2 - Decorators and Theming in V6". Still not working...
+// export const decorators = [
+//   (Story) => (
+//     <ThemeProvider theme={theme}>
+//       <CSSReset />
+//       <Box m='4'>
+//         <Story />
+//       </Box>
+//     </ThemeProvider>
 //   ),
 // ];
