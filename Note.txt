@@ -36,3 +36,4 @@ This project shows:
 - Use decorator to wrap every story in a file inside an extra component
 - Use Global decorators in preview.js over component decorator in every component.
 - Controls Addon so you can change the injected property.
+- Actions Addon so you can get the click event.
