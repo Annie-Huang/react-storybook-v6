@@ -26,3 +26,7 @@ Danger.args = {
   variantColor: 'red',
   children: 'Danger',
 };
+
+export const Log = () => (
+  <Button onClick={() => console.log('Button clicked')}>Danger</Button>
+);

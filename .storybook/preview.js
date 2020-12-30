@@ -8,6 +8,7 @@ import {
   ThemeProvider,
   Box,
 } from '@chakra-ui/react';
+import '@storybook/addon-console'; // console log is in the Actions tag.
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
