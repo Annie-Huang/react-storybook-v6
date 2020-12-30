@@ -8,7 +8,10 @@ https://storybook.js.org/docs/react/get-started/install
 https://storybook.js.org/docs/react/writing-stories/naming-components-and-hierarchy     << Sorting stories section
 https://storybook.js.org/docs/react/writing-stories/args
 https://storybook.js.org/docs/react/writing-stories/decorators
+
 https://chakra-ui.com/
+https://chakra-ui.com/docs/getting-started
+https://chakra-ui.com/docs/form/button
 =================================================================
 
 C:\react>npx create-react-app react-storybook-v6
