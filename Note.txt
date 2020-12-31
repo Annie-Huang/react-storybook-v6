@@ -51,3 +51,4 @@ This project shows:
 - Add knobs addon, but prefer to use controls over konbs in the new versino
 - Configure viewport addon to include all the device types.
 - Add a11y addon. Go to Violations, more info to see how to fix problems
+- Environment Variables

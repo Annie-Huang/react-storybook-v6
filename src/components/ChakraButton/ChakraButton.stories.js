@@ -31,7 +31,12 @@ Danger.args = {
 
 // Should use controls over knobs.
 export const Log = () => (
-  <Button onClick={() => console.log('Button clicked')}>Danger</Button>
+  <Button
+    vaiantColor='blue'
+    onClick={() => console.log('Button clicked', process.env.STORYBOOK_THEME)}
+  >
+    Danger
+  </Button>
 );
 
 export const Knobs = () => (
