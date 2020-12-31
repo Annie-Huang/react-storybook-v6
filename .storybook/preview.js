@@ -9,7 +9,9 @@ import {
   Box,
 } from '@chakra-ui/react';
 import '@storybook/addon-console'; // console log is in the Actions tag.
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 
+// Use INITIAL_VIEWPORTS over MINIMAL_VIEWPORTS to have the full list version like chrome dev tool.
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   options: {
@@ -17,6 +19,9 @@ export const parameters = {
       a[1].kind === b[1].kind
         ? 0
         : a[1].id.localeCompare(b[1].id, undefined, { numeric: true }),
+  },
+  viewport: {
+    viewports: INITIAL_VIEWPORTS,
   },
 };
 
