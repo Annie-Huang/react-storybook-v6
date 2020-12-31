@@ -48,3 +48,6 @@ This project shows:
 - Go to Docs to click show code button (e.g. http://localhost:6006/?path=/docs/form-button--primary)
 - See different viewport for window machine (change in main.js, mac works fine). It's on the middle top section, last one.
 - Show console.log (addon-console) in Actions tag.
+- Add knobs addon, but prefer to use controls over konbs in the new versino
+- Configure viewport addon to include all the device types.
+- Add a11y addon. Go to Violations, more info to see how to fix problems
