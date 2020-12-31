@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button } from '@chakra-ui/react';
+import { text, boolean } from '@storybook/addon-knobs';
 
+// Should use controls over knobs.
 export default {
   title: 'Chakra/Button',
   component: Button,
@@ -27,6 +29,13 @@ Danger.args = {
   children: 'Danger',
 };
 
+// Should use controls over knobs.
 export const Log = () => (
   <Button onClick={() => console.log('Button clicked')}>Danger</Button>
+);
+
+export const Knobs = () => (
+  <Button vaiantColor='purple' disabled={boolean('Disabled', false)}>
+    {text('Label', 'Button Label')}
+  </Button>
 );
